@@ -1,3 +1,4 @@
+/*index*/
 .carousel-item {
     position: relative;
     height: 500px;
@@ -5,24 +6,37 @@
 
 .carousel-item img {
     position: absolute;
-    /* display:flex;
-    justify-content: center;
-    align-items: center; */
-    vertical-align: middle;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     right: 0;
-    bottom: 0;
-    opacity: 0.5;
     object-fit: cover;
     object-position: bottom;
 }
 
 .carousel-item h5{
-    color: black;
+
     text-transform: uppercase;
 }
 
 .carousel-item p{
-    color: black;
+
 }
+
+.main-contain {
+    max-width:500px;
+    margin: 0 auto;
+    text-align:center;
+}
+.main-contain h2 {
+    
+}
+
+.main-contain p {
+
+}
+
+
+<!-- index2 -->
+<!-- index3 -->
+<!-- index4 -->
