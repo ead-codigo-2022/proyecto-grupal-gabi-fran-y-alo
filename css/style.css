@@ -1,1 +1,28 @@
-style.css
+.carousel-item {
+    position: relative;
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.carousel-item h5{
+    color: black;
+    text-transform: uppercase;
+}
+
+.carousel-item p{
+    color: black;
+}
