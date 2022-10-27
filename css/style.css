@@ -114,5 +114,12 @@ div.footer-ead-icon {
 
 <!-- index2 -->
 <!-- index3 -->
+.main-contain {
+    max-width:100%;
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 <!-- index4 -->
 
