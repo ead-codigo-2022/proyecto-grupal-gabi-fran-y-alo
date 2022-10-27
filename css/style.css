@@ -96,14 +96,12 @@ div.footer-ead-icon {
 
 <!-- index2 -->
 <!-- index3 -->
-.container marketing {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-right: auto;
-    margin-left: auto;
+.main-contain {
+    max-width:100%;
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 <!-- index4 -->
 
