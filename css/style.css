@@ -114,23 +114,20 @@ div.footer-ead-icon {
 
 <!-- index2 -->
 <!-- index3 -->
-.row {
-    position: absolute;
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-right: 50 px;
-    margin-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.container-organizaciones {
+.container {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
+    column-gap: 0;
+    row-gap: 0;
+    align-items: center;
+    background-color: #F6F6F6;
+    max-width:100%;
     margin: 0 auto;
-    text-align:center;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 73px;
+    padding-right: 73px;
+    text-align: center;
 }
 <!-- index4 -->
 
