@@ -13,6 +13,10 @@ body {
     font-size: 1rem;
 }
 
+div.container {
+    color: #2E86C1;
+}
+
 .nav-pills .nav-link {
     color: #000000;
     text-decoration: none;
