@@ -1,4 +1,28 @@
 /*index*/
+
+:root {
+    --primary-color:#000000;
+    --primary-font: 'Sora', sans-serif; 
+    --primary-lineheight: '.5rem';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+
+.nav-pills .nav-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-pills .nav-link:hover {
+    color: #2E86C1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
 .carousel-item {
     position: relative;
     height: 500px;
@@ -15,7 +39,6 @@
 }
 
 .carousel-item h5{
-
     text-transform: uppercase;
 }
 
@@ -24,10 +47,20 @@
 }
 
 .main-contain {
-    max-width:500px;
+    background-color: #F6F6F6;
+    max-width:100%;
     margin: 0 auto;
     text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.main-contain-text {
+    width: 600px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .main-contain h2 {
     
 }
@@ -36,6 +69,30 @@
 
 }
 
+div.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
+    margin: auto;
+    column-gap: 0;
+    row-gap: 0;
+    align-items: center;
+    height: 145px;
+    background-color: white;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    padding-left: 73px;
+    padding-right: 73px;
+}
+
+div.footer-text a.footer.contact-link {
+    grid-column: 1/2;
+}
+
+div.footer-ead-icon {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: end;
+}
 
 <!-- index2 -->
 <!-- index3 -->
