@@ -13,9 +13,6 @@ body {
     font-size: 1rem;
 }
 
-div.container {
-    color: #2E86C1;
-}
 
 .nav-pills .nav-link {
     color: #000000;
@@ -44,10 +41,6 @@ div.container {
 
 .carousel-item h5{
     text-transform: uppercase;
-}
-
-.carousel-item p{
-
 }
 
 .main-contain {
@@ -91,14 +84,28 @@ div.col-md-8 {
     text-align: justify;
 }
 
+.line-1 {
+    position: relative;
+    width: 1200px;
+    height: 1px;
+    background-color: #43736E;
+    align-content: center;
+    border-radius: 1px;
+    top: 70px;
+    left: 30px;
+}
+
 div.footer-container {
+    border-color: #dee2e6;
+    border-style: solid;
+    border-width: 1px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
     margin: auto;
     column-gap: 0;
     row-gap: 0;
     align-items: center;
-    height: 145px;
+    height: 100px;
     background-color: white;
     font-size: 0.8rem;
     line-height: 1.4rem;
@@ -116,31 +123,17 @@ div.footer-ead-icon {
     justify-content: end;
 }
 
-<!-- index2 -->
-<!-- index3 -->
-div.footer-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
-    margin: auto;
-    column-gap: 0;
-    row-gap: 0;
-    align-items: center;
-    height: 145px;
-    background-color: white;
-    font-size: 0.8rem;
-    line-height: 1.4rem;
-    padding-left: 73px;
-    padding-right: 73px;
+/*index2*/
+
+div.col-lg-6.col-md-8.mx-auto {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0 auto;
+
+
 }
 
-div.footer-text a.footer.contact-link {
-    grid-column: 1/2;
-}
+/*index3*/
 
-div.footer-ead-icon {
-    grid-column: 2/3;
-    display: flex;
-    justify-content: end;
-}
-<!-- index4 -->
+/*index4*/
 
