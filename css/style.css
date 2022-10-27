@@ -114,12 +114,29 @@ div.footer-ead-icon {
 
 <!-- index2 -->
 <!-- index3 -->
-.main-contain {
-    max-width:100%;
-    margin: 0 auto;
-    text-align:center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+div.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
+    margin: auto;
+    column-gap: 0;
+    row-gap: 0;
+    align-items: center;
+    height: 145px;
+    background-color: white;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    padding-left: 73px;
+    padding-right: 73px;
+}
+
+div.footer-text a.footer.contact-link {
+    grid-column: 1/2;
+}
+
+div.footer-ead-icon {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: end;
 }
 <!-- index4 -->
 
