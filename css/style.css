@@ -1,4 +1,8 @@
 /*index*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
 :root {
     --primary-color:#000000;
@@ -22,10 +26,6 @@ body {
 .nav-pills .nav-link {
     color: #000000;
     text-decoration: none;
-}
-
-.nav.nav-pill:active {
-    color: #2E86C1;
 }
 
 .nav-pills .nav-link:hover {
