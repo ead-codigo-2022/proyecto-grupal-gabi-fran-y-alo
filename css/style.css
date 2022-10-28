@@ -236,3 +236,8 @@ div.col p{
 
 /*index4*/
 
+.featurette-heading {
+    margin-top: 7rem;
+    font-size: 50px;
+}
+
