@@ -192,7 +192,7 @@ button, input, optgroup, select, textarea {
     border: none;
 }
 
-div.d-flex.justify-content-between.align-items-center.hover {
+button.btn-ver-más:hover {
     color: #000000;
     background-color: rgba(46, 134, 193, 0.4);
     border: none;
