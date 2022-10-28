@@ -179,7 +179,23 @@ button:hover {
     color: #000000;
     background-color: rgba(46, 134, 193, 0.4);
     border: none;
+    
+<!-- index2 -->
 
+<!-- index3 -->
+div.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
+    margin: auto;
+    column-gap: 0;
+    row-gap: 0;
+    align-items: center;
+    height: 145px;
+    background-color: white;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    padding-left: 73px;
+    padding-right: 73px;
 }
 
 
