@@ -13,7 +13,6 @@ body {
     font-size: 1rem;
 }
 
-
 .nav-pills .nav-link {
     color: #000000;
     text-decoration: none;
@@ -27,6 +26,7 @@ body {
 .carousel-item {
     position: relative;
     height: 500px;
+    padding-bottom: ;
 }
 
 .carousel-item img {
@@ -37,10 +37,24 @@ body {
     right: 0;
     object-fit: cover;
     object-position: bottom;
+    filter: grayscale(20%);
+}
+
+a.nav-link-inicio {
+    color: white;
+    text-decoration: none;
+    
 }
 
 .carousel-item h5{
     text-transform: uppercase;
+}
+
+.carousel-caption.d-none.d-md-block {
+    background-color: rgba(46, 134, 193, 0.6);
+    width: 100%;
+    right: 0;
+    left: 0;
 }
 
 .main-contain {
@@ -126,7 +140,7 @@ div.footer-ead-icon {
 
 /*index2*/
 
-div.col-md-8 {
+div.col-lg-6.col-md-8 {
     padding-top: 0;
     padding-bottom: 1rem;
 }
@@ -162,7 +176,7 @@ div.card-body p {
     font-size: 0.8rem;
 }
 
-button, input, optgroup, select, textarea {
+button., input, optgroup, select, textarea {
     border: solid;
     border-color: black;
     border-width: 0.5px;
@@ -179,25 +193,9 @@ button:hover {
     color: #000000;
     background-color: rgba(46, 134, 193, 0.4);
     border: none;
-    
-<!-- index2 -->
-
-<!-- index3 -->
-div.footer-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
-    margin: auto;
-    column-gap: 0;
-    row-gap: 0;
-    align-items: center;
-    height: 145px;
-    background-color: white;
-    font-size: 0.8rem;
-    line-height: 1.4rem;
-    padding-left: 73px;
-    padding-right: 73px;
 }
 
+/*index3*/
 
 /*index3*/
 
