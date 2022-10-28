@@ -42,8 +42,7 @@ body {
 
 a.nav-link-inicio {
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 .carousel-item h5{
@@ -51,7 +50,7 @@ a.nav-link-inicio {
 }
 
 .carousel-caption.d-none.d-md-block {
-    background-color: rgba(46, 134, 193, 0.6);
+    background-color: rgba(46, 134, 193, 0.8);
     width: 100%;
     right: 0;
     left: 0;
