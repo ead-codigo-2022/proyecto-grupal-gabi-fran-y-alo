@@ -89,7 +89,6 @@ a.nav-link-inicio:hover {
 .main-contain-text p {
     grid-column: 2/3;
     display: flex;
-    text-align: justify;
 }
 
 div.col-md-8 {
@@ -98,7 +97,6 @@ div.col-md-8 {
     display: absolute;
     padding-top: 50px;
     padding-right: 73px;
-    text-align: justify;
     padding-bottom: 50px;
 }
 
