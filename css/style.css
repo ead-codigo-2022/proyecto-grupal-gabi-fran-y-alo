@@ -41,8 +41,7 @@ body {
 }
 
 a.nav-link-inicio {
-    color: white;
-    text-decoration: none; 
+    color: white; 
 }
 
 a.nav-link-inicio:hover {
