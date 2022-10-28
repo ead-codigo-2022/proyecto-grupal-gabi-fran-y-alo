@@ -99,6 +99,10 @@ div.col-md-8 {
     padding-bottom: 50px;
 }
 
+button.carousel-control-next:hover {
+    
+}
+
 .line-1 {
     position: relative;
     width: 1200px;
@@ -176,7 +180,7 @@ div.card-body p {
     font-size: 0.8rem;
 }
 
-button., input, optgroup, select, textarea {
+button, input, optgroup, select, textarea {
     border: solid;
     border-color: black;
     border-width: 0.5px;
@@ -188,8 +192,7 @@ button., input, optgroup, select, textarea {
     border: none;
 }
 
-
-button:hover {
+div.d-flex.justify-content-between.align-items-center.hover {
     color: #000000;
     background-color: rgba(46, 134, 193, 0.4);
     border: none;
