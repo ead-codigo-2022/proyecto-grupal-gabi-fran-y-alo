@@ -13,9 +13,19 @@ body {
     font-size: 1rem;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #2E86C1;
+    background: none;
+    font-weight: bold;
+}
+
 .nav-pills .nav-link {
     color: #000000;
     text-decoration: none;
+}
+
+.nav.nav-pill:active {
+    color: #2E86C1;
 }
 
 .nav-pills .nav-link:hover {
@@ -26,7 +36,6 @@ body {
 .carousel-item {
     position: relative;
     height: 500px;
-    padding-bottom: ;
 }
 
 .carousel-item img {
@@ -98,10 +107,6 @@ div.col-md-8 {
     padding-top: 50px;
     padding-right: 73px;
     padding-bottom: 50px;
-}
-
-button.carousel-control-next:hover {
-    
 }
 
 .line-1 {
