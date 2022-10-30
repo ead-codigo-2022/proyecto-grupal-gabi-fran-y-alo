@@ -152,7 +152,7 @@ div.footer-ead-icon {
     justify-content: end;
 }
 
-/*index2*/
+/*index2-noticias*/
 
 div.col-lg-6.col-md-8 {
     padding-top: 0;
@@ -170,9 +170,13 @@ div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {
     padding-bottom: 1rem;
 }
 
-.div.card {
-    height: 100%;
-    max-height: 300px;
+div.col p.card-body-reference {
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+div.col p.card-text-noticias {
+    margin-bottom: 0;
 }
 
 div.card-body h3 {
@@ -208,7 +212,7 @@ button.btn-ver-más:hover {
     border: none;
 }
 
-/*index3*/
+/*index3-organizaciones*/
 
 div.p {
     padding-top: 0;
@@ -257,10 +261,30 @@ a.btn.btn-secondary:hover {
     border: none;
 }
 
-/*index4*/
+/*index4-quiénes-somos*/
 
 .featurette-heading {
-    margin-top: 2rem;
-    font-size: 50px;
+    font-size: 1.5rem;
 }
 
+div.row.g-4.row-cols-1.row-cols-lg-3 {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+div.feature.col p.text {
+    margin-bottom: 25px;
+}
+
+h3.team-title {
+    font-size: 1.3em;
+}
+
+a.icon-link-team {
+    color: #000000;
+}
+
+a.icon-link-team:hover {
+    color: #2E86C1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
