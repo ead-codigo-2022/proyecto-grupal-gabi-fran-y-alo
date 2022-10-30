@@ -170,9 +170,13 @@ div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {
     padding-bottom: 1rem;
 }
 
-.div.card {
-    height: 100%;
-    max-height: 300px;
+div.col p.card-body-reference {
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+div.col p.card-text-noticias {
+    margin-bottom: 0;
 }
 
 div.card-body h3 {
@@ -239,6 +243,7 @@ div.col p{
     margin-bottom: 90px;
     padding-bottom: 40px;
 }
+
 
 a.btn.btn-secondary {
     border: solid;
