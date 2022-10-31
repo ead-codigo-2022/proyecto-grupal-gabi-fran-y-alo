@@ -288,3 +288,7 @@ a.icon-link-team:hover {
     color: #2E86C1;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
+
+h3.team-title{
+    margin-top: 20px;
+}
